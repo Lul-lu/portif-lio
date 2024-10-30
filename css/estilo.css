@@ -78,7 +78,7 @@ main .main-content text p{
         line-height: 1.6em;
         padding: 0 5%;
 }
-/*caeds*/}
+/*cards*/}
 main .techs .cards-container{
         display: flex;
         align-items: center;
@@ -88,4 +88,11 @@ main .techs .cards-container .card{
         height: 120px;
         padding: 10%;
         background-color: #eee;
+        border-radius: 8px;
+        margin-right: 1.8em;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s ease-in-out;
 }
