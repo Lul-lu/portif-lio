@@ -48,7 +48,7 @@ header nav a{
 }
 
 header nav a: :nth-child(4){
-        margin-right: 0em
+        margin-right: 0em;
 }
 header h1:hover, a:hover{
         color: #00E0FF;
@@ -78,7 +78,7 @@ main .main-content text p{
         line-height: 1.6em;
         padding: 0 5%;
 }
-/*cards*/}
+/*cards*/
 main .techs .cards-container{
         display: flex;
         align-items: center;
