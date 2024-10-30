@@ -71,8 +71,21 @@ main .main-content h2{
 main .main-content text{
         margin-bottom: 10%;
 }
-main .main-content text{
+main .main-content text p{
         width: 75%;
         font-size: 1.2em;
         font-weight: 300;
+        line-height: 1.6em;
+        padding: 0 5%;
+}
+/*caeds*/}
+main .techs .cards-container{
+        display: flex;
+        align-items: center;
+}
+main .techs .cards-container .card{
+        width: 120px;
+        height: 120px;
+        padding: 10%;
+        background-color: #eee;
 }
