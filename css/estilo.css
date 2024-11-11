@@ -1,4 +1,4 @@
-/Reset CSS/
+/*Reset CSS*/
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ a{
 h1{
     transition: 0.2s ease-in-out; 
 }
-/HEADER/
+/*HEADER*/
 header{
     background-color: #222;
     padding: 25px;
@@ -53,14 +53,14 @@ header h1, a{
 header h1:hover, a:hover{
     color: #00E0FF;
 }
-/main content/
+/*main content*/
 main{
     padding: 5%;
     display: flex;
     align-items: center ;
     justify-content: space-between;
 }
-/MAIN CONTENT/
+/*MAIN CONTENT*/
 main .main-content{
     display: flex;
     flex-direction: column;
@@ -79,12 +79,12 @@ main .main-content text p{
     line-height: 1.6em;
     padding: 0 5%;
 }
-/CARDS/
+/*CARDS*/
 main .techs .cards-container{
     display: flex;
     align-items: center;
 }
-/CARDS/
+/*CARDS*/
 main .techs .cards-container .card{
     width: 120px;
     height: 120px;
@@ -109,7 +109,7 @@ main .techs .cards-container .card img{
     width: 60%;
     transition: 0.2s ease-in-out;
 }
-/Sobre mim/
+/*Sobre mim*/
 main figure{
     display: flex;
     flex-direction: column;
